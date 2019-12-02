@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<table border=1 style="height:20%; width:30%">
+			<tr>
+				<th>Ticker</th>
+				<th>Price</th>
+			</tr>
+            <tr>
+				<td>WIPRO</td>
+				<td>298.45</td>
+			</tr>
+            <tr>
+				<td>INFY</td>
+				<td>949.95</td>
+			</tr>
+            <tr>
+				<td>TCS</td>
+				<td>2713.70</td>
+			</tr>
+            <tr>
+				<td>TECHM</td>
+				<td>485.85</td>
+			</tr>
+		</table>
+        <h1>Stock Trading</h1>
+        <form>
+        	<table border=1 style="height:20%; width:25%">
+            	<tr>
+                	<td>Ticker</td>
+                    <td>
+                    <select name="ticker" id="ticker" style="width:100%">
+                    <option value="WIPRO">WIPRO</option>
+                    <option value="INFY">INFY</option>
+                    <option value="TCS">TCS</option>
+                    <option value="TECHM">TECHM</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                	<td>Quantity</td>
+                    <td><input type="number" min=10 max=100 step=10 id="qty" value="10"/></td>
+                </tr>
+                <tr>
+                	<td><input type="submit" onclick="verifyPrice()"/></td>
+                </tr>
+            </table>
+        </form>
+	</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<center><h1><img title="Zena Events" src="logo.png" alt="https://cdn.dribbble.com/users/123186/screenshots/4537190/festival-people-logo.jpg" style="width:25px" />  Zena Events</h1>
+			<form>
+				<table>
+				<tr>
+				<td>Name : </td>
+				<td><input type="text" placeholder="Enter your name" pattern="[A-Za-z ]+" required/></td>
+				</tr>
+				<tr>
+				<td>Age : </td>
+				<td><input type="number" min=18 required/></td>
+				</tr>
+				<tr>
+				<td>Email Id : </td>
+				<td><input type="email" placeholder="Enter your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email id format" required/></td>
+				</tr>
+				<tr>
+				<td>City : </td>
+				<td><input list="myselect" name="browser">
+				<datalist id="myselect">
+				<option>Rajkot</option>
+				<option>Vizag</option>
+				<option>Bangalore</option>
+  				</datalist></td>
+				</tr>
+				</table> 
+				<button type="submit">Submit</button>
+			</form>
+		</center>
+	</body>
+</html>
